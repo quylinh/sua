@@ -1,0 +1,46 @@
+  <!-- <nav class="container1"> -->
+    <!-- <button id="menu-btn"><i class="fas fa-bars"></i></button> -->
+    <!-- <ul id="menu">
+            <li><a href="#"><i class="fas fa-home"></i> Trang chủ</a></li>
+            <li><a href="#">Công thức</a>
+                <ul class="menu1">
+                    <li><a href="#">Món chay</a></li>
+                    <li><a href="#">Món mặn</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Sức khỏe & Cuộc sống</a>
+            </li>
+            <li><a href="#">Diễn đàn</a>
+            </li> -->
+    <!-- <li>
+                <div id="timkiem">
+                    <form>
+                        <input type="text" placeholder="Tìm kiếm món ăn">
+                    </form>
+                </div>
+            </li> -->
+    <!-- </ul>
+    </nav> -->
+      <!-- <ul class="sub-menu">
+                    <li><a href="#">Món chay</a></li>
+                    <li><a href="#">Món mặn</a></li>
+                </ul> -->
+                .title {
+    color: grey;
+    font-size: 18px;
+  }
+  /* @media only screen and (max-width: 800px) {
+
+    /* #menu ul {
+        display: none;
+    } */
+    /* #main-menu ul {
+        display: none;
+        flex-direction: column;
+    }
+
+    #main-menu:hover ul {
+        display: flex;
+    }
+} */

@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+
+<body class=" container">
+
+    <script>
+        $(document).ready(function () {
+            $('#button').click(function () {
+                $('nav').slideToggle();
+            });
+        })
+    </script>
+    <div id="button">
+        <i class="fas fa-bars"></i></button>
+    </div>
+    <header>
+        <div class="logo"><a href="#"><img src="25.png" alt=""></a> </div>
+        <div class="chude"><a href="#"><img src="4.png" alt="" style="width:400px;height:100px"></a> </div>
+    </header>
+
+    <nav id="container1">
+        <ul id="main-menu">
+            <li><a href="#"><i class="fas fa-home"></i> Trang chủ</a></li>
+            <li><a href="#">Công thức</a>
+            </li>
+            <li>
+                <a href="#">Sức khỏe & Cuộc sống</a>
+            </li>
+            <li><a href="#">Diễn đàn</a>
+            </li>
+            <li>
+                <div id="timkiem">
+                    <form>
+                        <input type="text" placeholder="Tìm kiếm món ăn">
+                    </form>
+                </div>
+            </li>
+        </ul>
+    </nav>
+    <br>
+    <span>32154 Món ăn ngon mỗi ngày</span>
+
+    <div class="row">
+        <article>
+            <ul>
+                <li>
+                    <img src="kimchi.png" alt="">
+                    <h2>Cách nấu canh kim chi Hàn Quốc</h2>
+
+                    <p>Kim chi là món ăn truyền thống được phần đông những người dân
+                        Hàn Quốc vô cùng yêu thích. Trong mùa đông, người Hàn Quốc thường
+                        nấu kim chi với thịt và đậu phụ để làm thành món canh nóng hổi...</p>
+                </li>
+                <li>
+                    <img src="mi.jpg" alt="">
+                    <h2>Công thức mì Ý tôm sốt kem</h2>
+
+                    <p>Mì Ý sốt kem là một trong những nét đặc trưng không thể không nhắc
+                        đến của ẩm thực nước Ý xinh đẹp. Những sợi mì to to, dai dai ăn kèm
+                        với phần sốt ngầy ngậy, thơm lừng,...</p>
+                </li>
+                <li>
+                    <img src="ga.jpg" alt="">
+                    <h2>Salad gà Thái cà rốt</h2>
+
+                    <p>Đĩa salad với những miếng gà thơm ngon, bùng nổ hương vị kiểu Thái cực kỳ
+                        hấp dẫn, kết hợp với những loại rau xanh tốt cho sức khỏe sẽ đem đến món
+                        ăn quyến rũ khó mà cưỡng lại được.</p>
+                </li>
+            </ul>
+            <br>
+            <br>
+            <div class="numberpage">
+                <span>Trước</span>
+                <span>1</span>
+                <span>2</span>
+                <span>3</span>
+                <span>...</span>
+                <span>200</span>
+                <span>Tiếp theo</span>
+            </div>
+        </article>
+        <aside>
+            <div class="card">
+                <img src="Capture.PNG" alt="Linh" style="width:100%;height: 200px;">
+                <h1>Ịp Quý Linh</h1>
+                <p>Học viện Kỹ thuật mật mã</p>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-square"></i></a>
+                <p><button>Contact</button></p>
+            </div>
+        </aside>
+    </div>
+    <footer class="row">
+        <div class="footer1">
+            <br>
+            <h2>THÔNG TIN LIÊN HỆ</h2>
+            <a href=""><i class="fas fa-map-marker-alt"></i> Vĩnh Cửu, Đồng Nai</a> <br>
+            <a href=""><i class="fas fa-phone-alt"></i> 0964807591</a><br>
+            <a href=""><i class="fas fa-envelope-square"></i> ipquylinh@gmail.com</a>
+        </div>
+
+        <div class="footer2"><br>
+            <h2>LIÊN KẾT NHANH</h2>
+            <a href="">Trang chủ</a><br>
+            <a href="">Công thức</a><br>
+            <a href="">Sức khỏe & Cuộc sống</a><br>
+            <a href="">Liên hệ</a>
+        </div>
+    
+          
+
+        <div class="footer3"><br>
+            <h2>ĐĂNG KÍ NHẬN TIN</h2>
+            <span>Hãy đăng kí để nhận những thông tin mới nhất</span><br>
+            <form>
+                <input type="text" placeholder="Nhập email của bạn">
+                <button>Đăng kí</button> 
+            </form>
+         <!-- <button>Đăng kí</button> -->
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,241 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto",sans-serif;
+    color: white;
+    /* background-color: rgb(170, 238, 193); */
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    /* width: 980px; */
+    height: 100px;
+    background-color: white;
+}
+.logo{
+    /* background-color: white; */
+    float: left;
+    width: 30%;
+    height: 100px;
+}
+.logo>a>img{
+    margin-left: 50px;
+    height: 100px;
+    width: 100px;
+}
+
+.chude{
+float:left;
+height: 100px;
+}
+a{
+    text-decoration: none;
+} 
+
+ nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center; 
+}
+#container1{
+    /* width: 980px; */
+    height: 50px;
+    background-color: BDBDBD;
+    margin: 0 auto; 
+} 
+#main-menu {
+    display:flex;
+} 
+a{
+    color: black;
+}
+#main-menu li a{
+    background-color: BDBDBD;
+    display: block;
+    padding: 13px 30px;
+    font-size: 20px;
+    border-right: white solid 1px;
+    
+}
+#main-menuenu li> ul >li> a{
+    display: block;
+    padding: 13px 40px;
+}
+nav>ul>li{
+    list-style: none;
+}
+li{
+    list-style: none;
+}
+#main-menu> li>ul>li>a{
+    text-decoration: none;
+}  
+
+#timkiem{
+    color: blue;
+    padding: 13px 20px;
+}
+.row{
+    float: left;
+    width: 100%;
+}
+article{
+    float: left;
+    width: 60%;
+    height: 400px;
+    background-color: BDBDBD;
+}
+aside{
+    float: left;
+    width: 40%;
+    height:400px ;
+    background-color: BDBDBD;
+}
+footer{
+    width: 100%;
+    background-color: BDBDBD;
+    height: 150px;
+    float: left;
+}
+article >ul> li> img{
+    width: 100px;
+    height: 100px;
+    float: left;
+    padding: 10px 10px ;
+}
+article> ul >li> h2{
+    padding: 10px 5px;
+    font-size: 15px;
+}
+article ul li{
+    clear: left;
+}
+a:hover{
+    color: E53935;
+}
+.numberpage span{
+    border: solid 1px gray;
+    padding: 2px 2px
+} 
+.numberpage{
+    padding-left: 10px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 360px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  h1{
+      padding: 2px 2px;
+  }
+aside>div>p> button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+button:hover, a:hover {
+    opacity: 0.7;
+  } 
+.footer1{
+  padding-left: 10px;
+    float: left; border:none;
+}
+.footer2{padding-left: 10px;
+    float: left;border:none;
+}
+.footer3{padding-left: 10px;
+    float: left;
+    border:none;
+} 
+footer{
+    display:grid ;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+
+  }
+.footer3>form> button{
+      display: block;
+      font-size: 12px;
+      width: 80px;
+      float: left;
+  }
+  input{
+     height: 30px;
+     float: left;
+  }
+  @media screen {
+      
+  }
+  h2{
+      color: black;
+  }
+  i{
+      color: black;
+  }
+  span{
+      color:rgb(81, 81, 83);
+  }
+  .footer3>span{
+      color: aliceblue;
+  }
+   
+#button{
+    display: none;
+}
+@media screen and (max-width: 800px) {
+    #main-menu{
+        flex-direction: column;
+        text-align: left;
+    }
+    #button{
+       display: block;
+       padding: 8px 12px;
+       }
+   nav #menu li a {
+       color: black;
+       display: block;
+       padding: 8px 70px;
+   }
+nav{
+   display: none;
+   }
+article{
+       display: none;
+   }
+   aside{
+       display: none;
+   }
+span{
+    display: none;
+}  
+
+footer{
+    display:none;
+}
+.logo{
+    display: none;
+}
+.chude{
+    margin-left: 5%;
+}
+
+}
